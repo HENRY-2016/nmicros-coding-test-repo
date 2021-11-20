@@ -1,0 +1,143 @@
+ /* .App {text-align: center;}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  color: white;
+} */
+
+/* .App-link {color: #61dafb;} */
+
+.wrapper {
+  padding-top: 30px;
+  }
+  body 
+  {
+    background-color: #393E46;
+  }
+  body h3 {
+  margin-bottom: 25px;
+  
+  }
+  
+  .navbar-brand a {
+  color: #ffffff;
+  }
+  
+  .form-wrapper,
+  .table-wrapper {
+  max-width: 500px;
+  margin: 0 auto;
+  }
+  
+  .table-wrapper {
+  max-width: 700px;
+  }
+  
+  .edit-link {
+  padding: 7px 10px;
+  font-size: 0.875rem;
+  line-height: normal;
+  border-radius: 0.2rem;
+  color: #fff;
+  background-color: #28a745;
+  border-color: #28a745;
+  margin-right: 10px;
+  position: relative;
+  top: 1px;
+  }
+  
+  .edit-link:hover {
+  text-decoration: none;
+  color: #ffffff;
+  }
+  
+  /* Chrome, Safari, Edge, Opera */
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  }
+  
+  /* Firefox */
+  input[type=number] {
+  -moz-appearance: textfield;
+  }
+  
+h2
+{
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+}
+
+
+
+/* ================================================== */
+#title {
+  text-align: center;
+  font-family: arial, sans-serif;
+}
+
+#students {
+  text-align: center;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border: 3px solid #ddd;
+  width: 100%;
+}
+
+#students td, #students th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#students tr:nth-child(even){background-color: #f2f2f2;}
+
+#students tr:hover {background-color: #ddd;}
+
+#students th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #4CAF50;
+  color: white;
+}
+
+.list-view-lists
+{
+  color: white;
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+  padding-left: 20px;
+  list-style-type: none;
+}
+
+.update-title-label
+{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+}
+.update-title-label {color: blue;}
+.form-inputs-label{color: white;}
+.navi-lables {color: white; font-size: 19px;}
+.user-input-form,.user-veiw-form
+{
+	border-top-left-radius:25px;
+	border-top-right-radius:25px;
+	border-bottom-left-radius:25px;
+	border-bottom-right-radius:25px;
+}
+.user-input-form
+{
+	background-color: #1B262C;
+}
+.user-veiw-form
+{
+  background-color: #222831;
+}
